@@ -83,7 +83,7 @@ public class Studentinfo {
 		     		 System.out.println("Student details successfully added with id="+id);
 		     		  break;
 		    	    
-		    	     // for updating the values
+		    	      // for updating the values
 		     case 2:  System.out.println("To update details input in format id,name,age,city");
 		              String names1 = sc.next();
                       String slist1[]= names1.split(",");

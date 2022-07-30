@@ -37,7 +37,7 @@ public class Studentinfo {
 
 	public static void main(String args[])throws Exception
 	{
-		//connection to database
+		//connection to database in myssql server
 		//type your database name below in place of studentmgmtsystem
 		String url="jdbc:mysql://localhost:3306/studentmgmtsystem";
 		String uname = "root";

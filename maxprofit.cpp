@@ -4,7 +4,7 @@ using namespace std;
 
 int mprofit(int index,int buy,int tr,vector<int> &maxi,int n)//tr=transactions remaining
 
-//return 0 only when the days have completed transactions left is 0
+//return 0 only when the no. of days have completed or transactions left is 0
 {
 	if(index == n || tr == 0)
 	{
@@ -20,7 +20,7 @@ int mprofit(int index,int buy,int tr,vector<int> &maxi,int n)//tr=transactions r
 	
 
 	 if you decide to sell the sshare you will get money hence maxi[prices] and one transaction will be completed ,hence tr-1 if you dont want to sell on that day you get 0 rs and no
-	 change in transaction as you have not sold the stock  */
+	 change in transaction as you have not sold the share  */
 
 	if(buy == 1) 
 	{
@@ -35,7 +35,6 @@ int maxpro(vector<int> & maxi,int n)
 	int tr;
 	cout<<"Enter max no of transactions"<<endl;
 	cin>>tr;
-	int tr1 = tr;
 
 	
 

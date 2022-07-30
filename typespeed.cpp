@@ -106,7 +106,7 @@ int main() {
     default:
                 cout << "choose valid option" << endl;
     }
-  } while (p != 4);
+  } while (p < 4);
 
   return 0;
 

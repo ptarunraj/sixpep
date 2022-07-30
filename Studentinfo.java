@@ -46,7 +46,7 @@ public class Studentinfo {
 		String query = "";
 		
 	    Class.forName("com.mysql.cj.jdbc.Driver");
-	  //getConnection used for connecting to database
+	   //getConnection used for connecting to database
 	    Connection con = DriverManager.getConnection(url,uname,password);
 	    Statement st = con.createStatement();
 	    

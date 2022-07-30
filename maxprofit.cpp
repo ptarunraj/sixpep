@@ -4,7 +4,7 @@ using namespace std;
 
 int mprofit(int index,int buy,int tr,vector<int> &maxi,int n)//tr=transactions remaining
 
-//return 0 only when the no. of days have completed or transactions left is 0
+//return 0 only when the no. of days have completed or transactions remaining is 0
 {
 	if(index == n || tr == 0)
 	{

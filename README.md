@@ -1,6 +1,6 @@
 # sixpep
 
-// For the 1st problem typespeed/speed.cpp
+// For the 1st problem 
 
 -> the program will automatically create random word of length =6, like ex:"dgcdyu".
 
@@ -39,10 +39,11 @@
 
 // For the 2nd problem studentmgtsys
 
--> to see the actual code file, path ="studentmgtsys\studentmgmtsys\src\studentmgmtsys\Studentinfo.java".
 
--> before hand create a database in mysql server.
+-> create a database before hand in mysql server.
 
 -> read the comments carefully and make the required code changes in necessary places like url,uname,password,etc.
 
--> I have executed the code in eclipse IDE, and if you are using the same select the folder "studentmgtsys" as your workspace dirctory,It will directly open the src code for u and you can execute it .
+// For the 3rd problems
+
+-> read comments for the better understanding of problem

@@ -37,7 +37,7 @@
 
 
 
-// For the 2nd problem studentmgtsys
+// For the 2nd problem studentmgmtsystem ie. Studentinfo
 
 
 -> create a database before hand in mysql server.
